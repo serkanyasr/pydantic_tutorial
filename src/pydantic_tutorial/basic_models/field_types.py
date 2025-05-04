@@ -15,7 +15,7 @@ class Product(BaseModel):
 pr1 = Product(name="apple", price="12.1", tags=["food"], metadata={"ID": "1"})
 pr2 = Product(name="apple", price="12", tags=["food"], metadata={"ID": "1"})
 
-# ✅ Notes:
+# Notes:
 # - List[str] will raise an error if a non-string element is passed.
 # - Dict[str, str] enforces both keys and values to be strings.
 
@@ -32,7 +32,7 @@ cnt1 = Contact(
     website="https://www.serkanyasar.dev"
 )
 
-# ✅ Notes:
+# Notes:
 # - If the email or URL is invalid, Pydantic will raise a ValidationError.
 # - You can test by trying values like "abc" or "example.com" to see the error.
 
@@ -47,7 +47,7 @@ class Person(BaseModel):
         to_upper=True               # Converts name to uppercase automatically
     )
 
-# ✅ Notes:
+# Notes:
 # - `conint` enforces numeric boundaries.
 # - `constr` allows setting min/max length and string transformations like `.to_upper`.
 # - If constraints are violated, ValidationError is raised.
