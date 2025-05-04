@@ -32,7 +32,8 @@ MANIFEST           # Manifest file
 # Virtual environments
 # Directories for virtual environments.
 venv/              # Common name for virtual environments
-venv             
+venv
+.venv             
 ENV/               # Alternative name for virtual environments
 env/               # Another alternative name for virtual environments
 env.bak/           # Backup virtual environment
