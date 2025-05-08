@@ -17,7 +17,6 @@ This section covers advanced Pydantic model features and patterns.
 ## Topics Covered
 1. Nested Models
    - Complex data structures
-   - Recursive models
    - Model relationships
 
 2. Inheritance
@@ -29,3 +28,5 @@ This section covers advanced Pydantic model features and patterns.
    - Runtime model creation
    - Dynamic field addition
    - Model customization 
+
+4. Config Options
