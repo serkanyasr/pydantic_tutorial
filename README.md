@@ -5,8 +5,6 @@ A comprehensive tutorial covering Pydantic from basics to advanced topics.
 ## Project Structure
 
 - `src/`: Contains example code for different Pydantic features
-- `exercises/`: Practice exercises for different skill levels
-- `tests/`: Test cases for verifying understanding
 
 ## Setup
 
@@ -25,8 +23,6 @@ pip install -r requirements.txt
 
 1. Start with basic models in `src/basic_models/`
 2. Move to advanced features in `src/advanced_models/`
-3. Practice with exercises in `exercises/`
-4. Test your understanding with the test cases
 
 ## Contributing
 
