@@ -28,4 +28,4 @@ This section covers advanced Pydantic model features and patterns.
 3. Dynamic Models
    - Runtime model creation
    - Dynamic field addition
-   - Model customization 
+   - Model customization

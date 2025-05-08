@@ -24,7 +24,6 @@ This section covers practical applications of Pydantic in real-world scenarios.
 
 2. Data Processing
    - Data validation pipelines
-   - Batch processing
    - Data transformation
    - Error recovery
 
